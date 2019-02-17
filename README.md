@@ -2,7 +2,7 @@
 A repository with answers to the AIIP python summative
 
 ## Problem 1
-run `python generate_dummy_dataset.py` to print out a dummy dataset object for which contain 32 data items ( ie. 1,2,3...32. ) for each sensor cluster and 16 readings for each item.
+run `python generate_dummy_dataset.py` to print out a dummy dataset object which contain 32 data items ( ie. 1,2,3...32. ) for each sensor cluster and 16 readings for each individual item.
 
 ## Problem 2
 run `python generate_dummy_dataset_stored.py` to create a new file every time the command is run. The filename as a timestamp showing when the file was created or data was received from the sensors. The file contains lines with each line representing the individual sensor cluster. Each line has 16 comma separated values for the cluster readings.
